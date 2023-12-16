@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: inherit;
+	float: right;
+}
+
+/* navigation bar */
+nav {
+    height: 100px;
+    background: #282c30;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+    color: white; 
+    font-weight: 900;
+}	
+	
+.default-heading {	
+		display: inline-block;
+		padding-top: 20px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+}
+
+/* change the color of links on hover */	
+.nav-items-right a:hover {
+  background-color: none;
+  color: #0096FF;
+}
+
+/*fix the size of the logo*/
+.logo {
+        max-width: 110px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 20px;
+			padding-right: 20px;
+		
+}
+
+ /*____________________________________________________________________________________________________________________ header^^*/
+ 
+ 
+ 
+ body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: system-ui;
+}
+
+.container1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+	
+ }
+
+.left {
+	width: 50%;
+	height: 450px;
+	background-image: url("search.png");
+	background-position: center;
+	background-size: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+ }
+ 
+.right {
+	 width: 50%;
+	 margin-left: 20px;
+
+ }
+	
+.card {
+	width: 600px;
+	background-color: #fff;
+	display: flex;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+.text-container {
+	display: flex;
+	align-items: center;
+	width: 70%;
+}
+
+h4 {
+	letter-spacing: 3px;
+	color: grey;
+}
+
+p {
+	color: grey;
+	line-height: 25px;
+}
+
+
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: system-ui;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+	
+ }
+
+.left {
+	width: 50%;
+	height: 450px;
+	background-image: url("search.png");
+	background-position: center;
+	background-size: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+ }
+ 
+.right {
+	 width: 50%;
+	 margin-left: 20px;
+
+ }
+	
+.card {
+	width: 600px;
+	background-color: #fff;
+	display: flex;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+.text-container {
+	display: flex;
+	align-items: center;
+	width: 70%;
+}
+
+h4 {
+	letter-spacing: 3px;
+	color: grey;
+}
+
+p {
+	color: grey;
+	line-height: 25px;
+}

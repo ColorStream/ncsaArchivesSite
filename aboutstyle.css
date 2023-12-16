@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: inherit;
+	float: right;
+}
+
+/* navigation bar */
+nav {
+    height: 100px;
+    background: #282c30;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+    color: white; 
+    font-weight: 900;
+}	
+	
+.default-heading {	
+		display: inline-block;
+		padding-top: 20px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+}
+
+/* change the color of links on hover */	
+.nav-items-right a:hover {
+  background-color: none;
+  color: #0096FF;
+}
+
+/*fix the size of the logo*/
+.logo {
+        max-width: 110px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 20px;
+			padding-right: 20px;
+		
+}
+
+ /*____________________________________________________________________________________________________________________ header^^*/
+ 
+ 
+h2 {
+	letter-spacing: 1px;
+	color: black;
+	font-size: 30px;
+}
+
+
+p {
+	color: grey;
+	line-height: 25px;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 800px;
+}
+
+.description {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+}
+
+.button {
+	background-color: #0096FF; 
+	border: none;
+	color: white;
+	padding: 12px 28px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius:12px;
+	transition-duration: 0.4s;
+	float: right;
+}
+
+.button a:hover {
+	background-color: #0096FF;
+	color: white;
+}

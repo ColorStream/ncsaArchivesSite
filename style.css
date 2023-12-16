@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: inherit;
+	float: right;
+}
+
+/* navigation bar */
+nav {
+    height: 100px;
+    background: #282c30;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+    color: white; 
+    font-weight: 900;
+}	
+	
+.default-heading {	
+		display: inline-block;
+		padding-top: 20px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+}
+
+/* change the color of links on hover */	
+.nav-items-right a:hover {
+  background-color: none;
+  color: #0096FF;
+}
+
+/*fix the size of the logo*/
+.logo {
+        max-width: 110px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 20px;
+			padding-right: 20px;
+		
+}
+
+ /*____________________________________________________________________________________________________________________ header^^*/
+
+.searchmodus {
+	width: 100%;
+	min-height: 100vh;
+		padding: 5%;
+	background-image: linear-gradient(rgba(4,59,92,0.5),rgba(4,59,92,0.5)), url("books.jpeg");
+	background-position: center;
+	background-size: fit;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.search-bar {
+	width: 100%;
+	max-width: 700px;
+	background: rgba(255,255,255,0.3);
+	display: flex;
+	align-items: center;
+	border-radius: 50px;
+	padding: 10px 20px;
+	backdrop-filter: blur(10px) saturate(180%);
+	
+}
+
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 20px;
+	color: white;
+	
+}
+
+::placeholder {
+	color: white;
+}
+
+ /*____________________________________________________________________________________________________________________ search bar^^*/
+ 
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: system-ui;
+}
+
+.container1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+	
+ }
+
+.left {
+	width: 50%;
+	height: 450px;
+	background-image: url("search.png");
+	background-position: center;
+	background-size: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+ }
+ 
+.right {
+	 width: 50%;
+	 margin-left: 20px;
+
+ }
+	
+.card {
+	width: 600px;
+	background-color: #fff;
+	display: flex;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+.text-container {
+	display: flex;
+	align-items: center;
+	width: 70%;
+}
+
+h4 {
+	letter-spacing: 3px;
+	color: grey;
+}
+
+p {
+	color: grey;
+	line-height: 25px;
+}
+
+.NCSA button {
+	padding: 15px 20px;
+	border: none;
+	outline: none;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: green;
+	width: 80%;
+	border-radius: 10px;
+	cursor:  pointer;
+}
+
+/*____________________________________________________________________________________________________________________Columns^^*/
+
+.column {
+	float: left;
+	width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+
+/*____________________________________________________________________________________________________________________ NCSA collection^^*/
+
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: system-ui;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+	
+ }
+
+.left {
+	width: 50%;
+	height: 450px;
+	background-image: url("search.png");
+	background-position: center;
+	background-size: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+ }
+ 
+.right {
+	 width: 50%;
+	 margin-left: 20px;
+
+ }
+	
+.card {
+	width: 600px;
+	background-color: #fff;
+	display: flex;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+.text-container {
+	display: flex;
+	align-items: center;
+	width: 70%;
+}
+
+h4 {
+	letter-spacing: 3px;
+	color: grey;
+}
+
+p {
+	color: grey;
+	line-height: 25px;
+}
+
+.additional button {
+	padding: 15px 20px;
+	border: none;
+	outline: none;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: green;
+	width: 80%;
+	border-radius: 10px;
+	cursor:  pointer;
+}
+
+
+ /*____________________________________________________________________________________________________________________ additional collection^^*/
+
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: system-ui;
+}
+
+.container3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+	
+ }
+
+.left {
+	width: 50%;
+	height: 450px;
+	background-image: url("search.png");
+	background-position: center;
+	background-size: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+ }
+ 
+.right {
+	 width: 50%;
+	 margin-left: 20px;
+
+ }
+	
+.card {
+	width: 600px;
+	background-color: #fff;
+	display: flex;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+.text-container {
+	display: flex;
+	align-items: center;
+	width: 70%;
+}
+
+h4 {
+	letter-spacing: 3px;
+	color: grey;
+}
+
+p {
+	color: grey;
+	line-height: 25px;
+}
+
+.additional2 button {
+	padding: 15px 20px;
+	border: none;
+	outline: none;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: green;
+	width: 80%;
+	border-radius: 10px;
+	cursor:  pointer;
+}
+
+
+ /*____________________________________________________________________________________________________________________ additional collection 2^^*/
