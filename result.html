@@ -30,13 +30,82 @@
 
 <body>
 
-	<div class="searchmodus">	
-		<form action="https://www.google.com/search" method="get" class="search-bar">
-			<input type="text" placeholder="Search archives..." name="q">
-			<button type="submit"><img src="search.png" width=30px height=30px></button>
+	<div class="search-container">
+		<form action="/action_page.php">
+			<input type="text" placeholder="Search.." name="search">
+			<button style="color:white" type="submit">search</button>
 		</form>
 	</div>
 
+	
+
+	<div class="filter-search-divide">
+		<div class="column">
+			<h2>Filter By:</h2>
+			<fieldset>
+			<legend>Subject</legend>
+				<div>
+				<input type="radio" id="ncsa" name="tag" value="ncsa" checked />
+				<label for="ncsa">NCSA</label>
+				</div>
+
+				<div>
+				<input type="radio" id="SAC" name="tag" value="SAC" />
+				<label for="SAC">SAC</label>
+				</div>
+
+				<div>
+				<input type="radio" id="COUP" name="tag" value="COUP" />
+				<label for="COUP">Louie</label>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Year</legend>
+					<div>
+					<input type="radio" id="1990" name="tag" value="1990" checked />
+					<label for="1990">1990</label>
+					</div>
+	
+					<div>
+					<input type="radio" id="1997" name="tag" value="1997" />
+					<label for="1997">1997</label>
+					</div>
+	
+					<div>
+					<input type="radio" id="2003" name="tag" value="2003" />
+					<label for="2003">2003</label>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>File Type</legend>
+						<div>
+						<input type="radio" id="pdf" name="tag" value="pdf" checked />
+						<label for="pdf">pdf</label>
+						</div>
+		
+						<div>
+						<input type="radio" id="image" name="tag" value="image" />
+						<label for="image">image</label>
+						</div>
+		
+						<div>
+						<input type="radio" id="audio" name="tag" value="audio" />
+						<label for="audio">audio</label>
+						</div>
+					</fieldset>
+			
+		</div>
+		<div class="column">
+			<div class="resultlist">
+				<h1 class="resultitems">Results</h1>
+					<ul>
+						<li><a href="">I can't properly populate results without a database to access. For now, this is just a dead link.</a></li>
+					</ul>
+			</div>
+		</div>
+	  </div> 
 	
 
 </body>

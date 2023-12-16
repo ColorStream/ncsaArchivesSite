@@ -51,230 +51,98 @@ nav {
 		
 }
 
+body {
+	background-color: hsl(30, 38%, 92%);
+	font-family: system-ui;
+  }
+
  /*____________________________________________________________________________________________________________________ header^^*/
  
- 
- 
- body {
-  background-color: hsl(30, 38%, 92%);
-  font-family: system-ui;
-}
+ .search-container {
+	padding-top: 50px;
+	padding-right: 40%;
+	padding-bottom: 50px;
+	padding-left: 80px;
+  }
 
-.container1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 500px;
-	
- }
+ .search-container a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 
-.left {
-	width: 50%;
-	height: 450px;
-	background-image: url("search.png");
-	background-position: center;
-	background-size: cover;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+  }
 
- }
- 
-.right {
-	 width: 50%;
-	 margin-left: 20px;
-
- }
-	
-.card {
-	width: 600px;
-	background-color: #fff;
-	display: flex;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	
-}
-
-.text-container {
-	display: flex;
-	align-items: center;
-	width: 70%;
-}
-
-h4 {
-	letter-spacing: 3px;
-	color: grey;
-}
-
-p {
-	color: grey;
-	line-height: 25px;
-}
-
-
-
-body {
-  background-color: hsl(30, 38%, 92%);
-  font-family: system-ui;
-}
-
-.container2 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 500px;
-	
- }
-
-.left {
-	width: 50%;
-	height: 450px;
-	background-image: url("search.png");
-	background-position: center;
-	background-size: cover;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-
- }
- 
-.right {
-	 width: 50%;
-	 margin-left: 20px;
-
- }
-	
-.card {
-	width: 600px;
-	background-color: #fff;
-	display: flex;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	
-}
-
-.text-container {
-	display: flex;
-	align-items: center;
-	width: 70%;
-}
-
-h4 {
-	letter-spacing: 3px;
-	color: grey;
-}
-
-p {
-	color: grey;
-	line-height: 25px;
-}
-
-
-.searchmodus {
-	width: 100%;
-	min-height: 100vh;
-		padding: 5%;
-	background-image: linear-gradient(rgba(4,59,92,0.5),rgba(4,59,92,0.5)), url("books.jpeg");
-	background-position: center;
-	background-size: fit;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-}
-
-.search-bar {
-	width: 100%;
-	max-width: 700px;
-	background: rgba(255,255,255,0.3);
-	display: flex;
-	align-items: center;
-	border-radius: 50px;
-	padding: 10px 20px;
-	backdrop-filter: blur(10px) saturate(180%);
-	
-}
-
-.search-bar input{
-	background: transparent;
-	flex: 1;
-	border: 0;
-	outline: none;
-	padding: 24px 20px;
-	font-size: 20px;
-	color: white;
-	
-}
-
-::placeholder {
-	color: white;
-}
+  .search-container {
+	float: left;
+	margin: left 10px;;
+  }
+  
+ .input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+  }
+  
+ .search-container button {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #3271BC;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .search-container button:hover {
+	background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+	.search-container {
+	  float: none;
+	}
+	.a, .input[type=text], .search-container button {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  width: 100%;
+	  margin: 0;
+	  padding: 14px;
+	}
+	.input[type=text] {
+	  border: 1px solid #ccc;  
+	}
+  }
 
  /*____________________________________________________________________________________________________________________ search bar^^*/
  
-body {
-  background-color: hsl(30, 38%, 92%);
-  font-family: system-ui;
-}
+ .filter-search-divide {
+	padding: 10%
+  }
 
-.container1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 500px;
-	
- }
 
-.left {
-	width: 50%;
-	height: 450px;
-	background-image: url("search.png");
-	background-position: center;
-	background-size: cover;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-
- }
- 
-.right {
-	 width: 50%;
-	 margin-left: 20px;
-
- }
-	
-.card {
-	width: 600px;
-	background-color: #fff;
-	display: flex;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	
-}
-
-.text-container {
-	display: flex;
-	align-items: center;
-	width: 70%;
-}
-
-h4 {
-	letter-spacing: 3px;
-	color: grey;
-}
-
-p {
-	color: grey;
-	line-height: 25px;
-}
-
-.NCSA button {
-	padding: 15px 20px;
-	border: none;
-	outline: none;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: green;
-	width: 80%;
-	border-radius: 10px;
-	cursor:  pointer;
-}
+ .column {
+	float: left;
+	padding: 30px;
+  }
+  
+  .left {
+	width: 25%;
+  }
+  
+  .right {
+	width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
